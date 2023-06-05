@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/estilo.css" />
   <link rel="stylesheet" href="styles/style.scss" />
+  <link rel="stylesheet" href="styles/style-modal.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,10 +22,10 @@
           <span class="slider"></span>
         </label>
       
-        <!--<a href="index.html" class="label_change">
+       <a href="index.html" class="label_change">
           Cambiar Idioma
         </a>
-        <label class="switch2">
+       <!-- <label class="switch2">
           Taken from:
         </label>
         <a href="https://devlacruz.github.io/cv" class="label_change2">
@@ -40,7 +41,7 @@
             <img src="img/profilePhoto.jpg" alt="" />
           </div>
           <h2>
-            Alejandro De La Cruz<br /><span>programmer and Systems Engineer Student</span>
+            Alejandro De La Cruz<br /><span>developer and Systems Engineer Student</span>
           </h2>
         </div>
         <div class="contact_info">
@@ -72,28 +73,93 @@
           <h3 class="title">Education</h3>
           <ul>
             <li>
-              <h5>August 2021 - September 2021</h5>
+              <h5>May 2023 - May 2023</h5>
+              <h4>2023 Agile Project Management with Scrum: AGILE Course</h4>
+              <h4>Masterclass - Udemy</h4>
+              <a
+                href="#"
+                onclick="openModal('myModal6'); return false;"
+                style="color: white">
+                <i>See Certificate</i></a>
+              >
+            </li>
+            <br />
+            <li>
+              <h5>March 2023 - June 2023</h5>
+              <h4>Office Suite (Power Point & Access)</h4>
+              <h4>Numpy Cursos, Gabriela Segovia Castro and Hugo Aguilar Svonik - Udemy</h4>
+              <a
+                href="#"
+                onclick="openModal('myModal5'); return false;"
+                style="color: white">
+                <i>See Certificate</i></a>
+              >
+            </li>
+            <br />
+            <li>
+              <h5>March 2023 - Mayy 2023</h5>
+              <h4>Learn Language C, C++ and C# from ZERO to EXPERT</h4>
+              <h4>Portal Ingeniería - Udemy</h4>
+              <a
+                href="#"
+                onclick="openModal('myModal4'); return false;"
+                style="color: white">
+                <i>See Certificate</i></a>
+              >
+            </li>
+            <br />
+            <li>
+              <h5>Agosto 2021 - Septiembre 2021</h5>
               <h4>Artificial Intelligence: The Future of Automation</h4>
               <h4>Santo Toribio de Mogrovejo Catholic University and Salta Catholic University</h4>
+              <a
+                href="#"
+                onclick="openModal('myModal3'); return false;"
+                style="color: white">
+                <i>See Certificate</i></a>
             </li>
             <br />
             <li>
               <h5>October 2019 - October 2024</h5>
               <h4>Systems Engineer</h4>
-              <h4>Pedro Ruiz Gallo National University</h4>
+              <h4>Pedro Ruiz Gallo University</h4>
+              <a href="#" id="pdf-link" style="color: white"><i>See Record</i></a>
+
+              <div id="pdf-modal">
+                <div id="pdf-modal-content">
+                  <span id="pdf-modal-close">&times;</span>
+                  <iframe
+                    id="pdf-iframe"
+                    width="100%"
+                    height="100%"
+                    frameborder="0"
+                  ></iframe>
+                </div>
+              </div>
             </li>
             <br />
             <li>
               <h5>January 2017 - June 2017</h5>
-              <h4>Office Suite</h4>
+              <h4>Office Suite (Excel & Word)</h4>
               <h4>MEGASYSTEM</h4>
+              <a
+                href="#"
+                onclick="openModal('myModal2'); return false;"
+                style="color: white">
+                <i>See Certificate</i></a>
             </li>
             <br />
             <li>
-              <h5>February 2016 - April 2016</h5>
+              <h5>February 2016 - March 2016</h5>
               <h4>Computer Assembly and Repair</h4>
               <h4>CEDIT Institute</h4>
+              <a
+                href="#"
+                onclick="openModal('myModal1'); return false;"
+                style="color: white">
+                <i>See Certificate</i></a>
             </li>
+          </ul>
         </div>
 
         <div class="contact_info idiomas">
@@ -120,9 +186,39 @@
         <div class="about">
           <h2 class="title2">Profile</h2>
           <p>
-            As a student in the last cycles I would love to be part of an organization in which I can apply all my knowledge acquired during professional training and at the same time allow me to develop professionally <br>
-             I like to take on challenges and always give my best in each project or task that is assigned to me. It is easy for me to adapt to new work environments and foster values within teams. <br>
-             Quite apart from professional training, I also have years of experience in customer service in the commercial field and as my own entrepreneurship, where I was able to develop my qualities.
+            I am a person who is passionate about the technological world and I am eager
+            for beginning my career in this exciting and ever-changing field.
+            evolution. Although I have little professional experience, I currently
+            I am studying the last semesters of Systems Engineering.
+            <br />
+            During my professional training, I have acquired solid knowledge
+            in programming, databases, computer networks
+            and computer security. Through projects and subjects
+            practices, I have had the opportunity to apply this knowledge
+            in real situations and develop relevant technical skills.
+            <br />
+            The systemic approach has allowed me to understand how systems
+            technologies interact with business processes and how they are
+            can optimize to improve efficiency and productivity.
+            I am familiar with agile development methodologies
+            software and I have experience in the design and implementation of
+            technological solutions.
+            <br />
+            In addition, my experience in the trade of a retail salesperson has
+            provided effective communication, negotiation and
+            Customer Management. These skills will be an additional advantage
+            in the technological field, since I can understand the needs of
+            end users and develop solutions that meet their
+            requirements.
+            <br />
+            I am excited for the opportunity to combine my skills
+            techniques, the experience of my trade and my training in Engineering of
+            Systems to contribute to the technological world. my commitment to
+            continuous learning and my passion for technology allow me
+            quickly adapt to the latest trends and challenges in the
+            industry. I am willing to take on new challenges and I am sure that
+            that I can bring a fresh and creative perspective to the development
+            of innovative technological solutions
           </p>
         </div>
 
@@ -138,9 +234,15 @@
             <li>
               <i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp; Commitment
             </li>
-            <li><i class="fa fa-users" aria-idden="true"></i>&nbsp;Empathy</li>
+            <li><i class="fa fa-user-plus" aria-idden="true"></i>&nbsp;Empathy</li>
             <li>
               <i class="fa fa-lightbulb-o" aria-hidden="true"></i>Creativity
+            </li>
+            <li>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i>Adaptability
+            </li>
+            <li>
+              <i class="fa fa-users" aria-hidden="true"></i>&nbsp;Management
             </li>
           </ul>
         </div>
@@ -204,8 +306,29 @@
             <div style="width: 56%"></div>
           </div>
         </div>
+        <div class="box">
+          <h4>C</h4>
+          <div class="porcentaje">
+            <div style="width: 38%"></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <h4>C++</h4>
+          <div class="porcentaje">
+            <div style="width: 43%"></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <h4>C#</h4>
+          <div class="porcentaje">
+            <div style="width: 61%"></div>
+          </div>
+        </div>
       </div>
-        <br />
+      <!--Finish My Skills Code-->
+      <br />
 
         <div class="about intereses">
           <h2 class="title2">hobbies</h2>
@@ -265,9 +388,88 @@
             </div>
           </div>
         </div>
+        <!--Finish experience code-->
       </div>
     </div>
-  <script src="scripts.js"></script>
+
+    <!-- Modales -->
+
+    <!-- Modal 1 -->
+    <div id="myModal1" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal1');">&times;</span>
+        <div class="slideshow">
+          <img src="img/cedit-cara1.jpg" class="mySlides" />
+          <img src="img/cedit-cara2.jpg" class="mySlides" />
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides('myModal1', -1)">&#10094;</a>
+      <a class="next" onclick="plusSlides('myModal1', 1)">&#10095;</a>
+    </div>
+
+    <!-- Modal 2 -->
+    <div id="myModal2" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal2');">&times;</span>
+        <div class="slideshow">
+          <img src="img/megasys1.jpg" class="mySlides" />
+          <img src="img/megasys2.jpg" class="mySlides" />
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides('myModal2', -1)">&#10094;</a>
+      <a class="next" onclick="plusSlides('myModal2', 1)">&#10095;</a>
+    </div>
+
+    <!-- Modal 3 -->
+    <div id="myModal3" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal3');">&times;</span>
+        <div class="slideshow">
+          <img src="img/usat1.jpg" class="mySlides" />
+          <img src="img/usat2.jpg" class="mySlides" />
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides('myModal3', -1)">&#10094;</a>
+      <a class="next" onclick="plusSlides('myModal3', 1)">&#10095;</a>
+    </div>
+
+    <!-- Modal 4 -->
+    <div id="myModal4" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal4');">&times;</span>
+        <div class="slideshow">
+          <img src="img/cetic.jpg" class="mySlides" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div id="myModal5" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal5');">&times;</span>
+        <div class="slideshow">
+          <img src="img/powerpoint.jpg" class="mySlides" />
+          <img src="img/access.jpg" class="mySlides" />
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides('myModal5', -1)">&#10094;</a>
+      <a class="next" onclick="plusSlides('myModal5', 1)">&#10095;</a>
+    </div>
+
+    <!-- Modal 6 -->
+    <div id="myModal6" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal6');">&times;</span>
+        <div class="slideshow">
+          <img src="img/agile.jpg" class="mySlides" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Fin de Modales -->
+
+  <script src="js/scripts.js"></script>
+  <script src="js/modal.js"></script>
 </body>
 
 </html>

@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/estilo.css" />
+    <link rel="stylesheet" href="styles/style.scss" />
+    <link rel="stylesheet" href="styles/style-modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Curriculum Vitae</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/estilo.css" />
-  <link rel="stylesheet" href="styles/style.scss" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Curriculum Vitae</title>
-</head>
-
-<body>
-  <nav class="cabezera">
-      
-        <label class="switch">
-          <input type="checkbox" id="slider" checked>
-          <span class="slider"></span>
-        </label>
-        <a href="translate.html" class="label_change">
-          Change Language
-        </a>
-        <!--<label class="switch2">
+  <body>
+    <nav class="cabezera">
+      <label class="switch">
+        <input type="checkbox" id="slider" checked />
+        <span class="slider"></span>
+      </label>
+      <a href="translate.html" class="label_change"> Change Language </a>
+      <!--<label class="switch2">
           Extraído de:  
         </label>
         <a href="https://devlacruz.github.io/cv" class="label_change2">
           https://devlacruz.github.io/cv
         </a>-->
-      </nav>
+    </nav>
 
     <div class="container">
       <div class="left_side">
@@ -38,30 +39,46 @@
             <img src="img/profilePhoto.jpg" alt="" />
           </div>
           <h2>
-            Alejandro De La Cruz<br /><span>programador y estudiante de Ingeniería de sistemas</span>
+            Alejandro De La Cruz<br /><span
+              >programador y estudiante de Ingeniería de sistemas</span
+            >
           </h2>
         </div>
         <div class="contact_info">
           <h3 class="title">Contacto</h3>
           <ul>
             <li>
-              <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <span class="icon"
+                ><i class="fa fa-phone" aria-hidden="true"></i
+              ></span>
               <span class="text">+51 972 106 282</span>
             </li>
             <li>
-              <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-              <span class="text">adelacruzsu@unprg.edu.pe</span>
+              <span class="icon"
+                ><i class="fa fa-envelope-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">alejantony.22@hotmail.com</span>
             </li>
             <li>
-              <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
-              <a href="https://github.com/DevLaCruz"><span class="text">github.com/DevLaCruz</span></a>
+              <span class="icon"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></span>
+              <a href="https://github.com/DevLaCruz"
+                ><span class="text">github.com/DevLaCruz</span></a
+              >
             </li>
             <li>
-              <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-              <a href="https://linkedin.com/in/devlacruz"><span class="text">linkedin.com/in/devlacruz</span></a>
+              <span class="icon"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></span>
+              <a href="https://linkedin.com/in/devlacruz"
+                ><span class="text">linkedin.com/in/devlacruz</span></a
+              >
             </li>
             <li>
-              <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <span class="icon"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i
+              ></span>
               <span class="text">Chiclayo, Lambayeque, Perú</span>
             </li>
           </ul>
@@ -70,28 +87,110 @@
           <h3 class="title">Educación</h3>
           <ul>
             <li>
+              <h5>Mayo 2023 - Mayo 2023</h5>
+              <h4>2023 Gestión Ágil de Proyectos con Scrum: Curso AGILE</h4>
+              <h4>Masterclass - Udemy</h4>
+              <a
+                href="#"
+                onclick="openModal('myModal6'); return false;"
+                style="color: white"
+              >
+                <i>Ver Certificado</i></a
+              >
+            </li>
+            <br />
+            <li>
+              <h5>Marzo 2023 - Junio 2023</h5>
+              <h4>Ofimática (Power Point & Access)</h4>
+              <h4>
+                Numpy Cursos, Gabriela Segovia Castro and Hugo Aguilar Svonik -
+                Udemy
+              </h4>
+              <a
+                href="#"
+                onclick="openModal('myModal5'); return false;"
+                style="color: white"
+              >
+                <i>Ver Certificado</i></a
+              >
+            </li>
+            <br />
+            <li>
+              <h5>Marzo 2023 - Mayo 2023</h5>
+              <h4>Aprende Lenguaje C, C++ y C# de CERO a EXPERTO</h4>
+              <h4>Portal Ingeniería - Udemy</h4>
+              <a
+                href="#"
+                onclick="openModal('myModal4'); return false;"
+                style="color: white"
+              >
+                <i>Ver Certificado</i></a
+              >
+            </li>
+            <br />
+            <li>
               <h5>Agosto 2021 - Septiembre 2021</h5>
               <h4>Inteligencia Artificial: El Futuro de la Automatización</h4>
-              <h4>Universidad Católica Santo Toribio de Mogrovejo & Universidad Católica de Salta</h4>
+              <h4>
+                Universidad Católica Santo Toribio de Mogrovejo & Universidad
+                Católica de Salta
+              </h4>
+              <a
+                href="#"
+                onclick="openModal('myModal3'); return false;"
+                style="color: white"
+              >
+                <i>Ver Certificado</i></a
+              >
             </li>
             <br />
             <li>
               <h5>Octubre 2019 - Octubre 2024</h5>
               <h4>Ingeniería de Sistemas</h4>
               <h4>Universidad Nacional Pedro Ruiz Gallo</h4>
+              <a href="#" id="pdf-link" style="color: white"
+                ><i>Ver Constancia</i></a
+              >
+
+              <div id="pdf-modal">
+                <div id="pdf-modal-content">
+                  <span id="pdf-modal-close">&times;</span>
+                  <iframe
+                    id="pdf-iframe"
+                    width="100%"
+                    height="100%"
+                    frameborder="0"
+                  ></iframe>
+                </div>
+              </div>
             </li>
             <br />
             <li>
               <h5>Enero 2017 - Junio 2017</h5>
-              <h4>Ofimática</h4>
+              <h4>Ofimática (Excel & Word)</h4>
               <h4>MEGASYSTEM</h4>
+              <a
+                href="#"
+                onclick="openModal('myModal2'); return false;"
+                style="color: white"
+              >
+                <i>Ver Certificado</i></a
+              >
             </li>
             <br />
             <li>
-              <h5>Febrero 2016 - Abril 2016</h5>
+              <h5>Febrero 2016 - Marzo 2016</h5>
               <h4>Ensamblaje y Reparación de Computadoras</h4>
               <h4>CEDIT Institute</h4>
+              <a
+                href="#"
+                onclick="openModal('myModal1'); return false;"
+                style="color: white"
+              >
+                <i>Ver Certificado</i></a
+              >
             </li>
+          </ul>
         </div>
 
         <div class="contact_info idiomas">
@@ -118,9 +217,39 @@
         <div class="about">
           <h2 class="title2">Perfil</h2>
           <p>
-            Como estudiante en últimos ciclos me encantaría formar parte de una organización rn la cual pueda aplicar todos mis conocimientos adquiridos durante la formación profesional y al mismo tiempo me permita desarrollarme profesionalmente <br>
-            Me gusta asumir retos y siempre dar lo mejor de mí en cada proyecto o tarea que se me asigne, me es sencillo adaptarme a nuevos entornos de trabajo y fomentar valores dentro de los equipos. <br>
-            Muy a parte de la formación profesional también tengo años de experiencia en atención al cliente en el rubro comercial y como emprendimiento propio, en donde pude desarrollar mis cualidades.
+            Soy una persona apasionada por el mundo tecnológico y estoy ansioso
+            por comenzar mi carrera en este campo emocionante y en constante
+            evolución. Aunque tengo poca experiencia profesional, actualmente me
+            encuentro cursando los últimos semestres de Ingeniería de Sistemas.
+            <br />
+            Durante mi formación profesional, he adquirido conocimientos sólidos
+            en programación, bases de datos, redes de computadoras
+            y seguridad informática. A través de proyectos y asignaturas
+            prácticas, he tenido la oportunidad de aplicar estos conocimientos
+            en situaciones reales y desarrollar habilidades técnicas relevantes.
+            <br />
+            El enfoque sistémico me ha permitido comprender cómo los sistemas
+            tecnológicos interactúan con los procesos empresariales y cómo se
+            pueden optimizar para mejorar la eficiencia y la productividad.
+            Estoy familiarizado con metodologías ágiles de desarrollo de
+            software y tengo experiencia en el diseño y la implementación de
+            soluciones tecnológicas.
+            <br />
+            Además, mi experiencia en el oficio de vendedor minorista, me ha
+            proporcionado habilidades de comunicación efectiva, negociación y
+            gestión de clientes. Estas habilidades serán una ventaja adicional
+            en el campo tecnológico, ya que puedo entender las necesidades de
+            los usuarios finales y desarrollar soluciones que satisfagan sus
+            requerimientos.
+            <br />
+            Estoy entusiasmado por la oportunidad de combinar mis habilidades
+            técnicas, la experiencia de mi oficio y mi formación en Ingeniería de
+            Sistemas para contribuir al mundo tecnológico. Mi compromiso con el
+            aprendizaje continuo y mi pasión por la tecnología me permiten
+            adaptarme rápidamente a las últimas tendencias y desafíos de la
+            industria. Estoy dispuesto a asumir nuevos retos y estoy seguro de
+            que puedo aportar una perspectiva fresca y creativa en el desarrollo
+            de soluciones tecnológicas innovadoras
           </p>
         </div>
 
@@ -134,75 +263,114 @@
               Resiliencia
             </li>
             <li>
-              <i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp; Compromiso
+              <i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp;
+              Compromiso
             </li>
-            <li><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Empatía</li>
+            <li><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;Empatía</li>
             <li>
               <i class="fa fa-lightbulb-o" aria-hidden="true"></i>Creatividad
             </li>
+            <li>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i>Adaptabilidad
+            </li>
+            <li>
+              <i class="fa fa-users" aria-hidden="true"></i>&nbsp;Gestión
+            </li>
+            
+            
           </ul>
         </div>
 
         <br />
-
+        <!--My Skills Code-->
         <div class="about skills">
           <h2 class="title2">habilidades duras (conocimientos)</h2>
+
           <div class="box">
             <h4>HTML</h4>
             <div class="porcentaje">
-              <div style="width: 85%"></div>
+              <div style="width: 90%"></div>
             </div>
           </div>
+
           <div class="box">
             <h4>CSS</h4>
             <div class="porcentaje">
-              <div style="width: 83%"></div>
+              <div style="width: 87%"></div>
             </div>
           </div>
+
           <div class="box">
             <h4>Javascript</h4>
             <div class="porcentaje">
-              <div style="width: 62%"></div>
+              <div style="width: 70%"></div>
             </div>
           </div>
+
           <div class="box">
             <h4>Java</h4>
             <div class="porcentaje">
               <div style="width: 56%"></div>
             </div>
           </div>
+
           <div class="box">
             <h4>SQL</h4>
             <div class="porcentaje">
               <div style="width: 70%"></div>
             </div>
           </div>
+
           <div class="box">
             <h4>Wordpress</h4>
             <div class="porcentaje">
               <div style="width: 76%"></div>
             </div>
           </div>
+
           <div class="box">
             <h4>PHP</h4>
             <div class="porcentaje">
               <div style="width: 50%"></div>
             </div>
           </div>
+
           <div class="box">
             <h4>Python</h4>
             <div class="porcentaje">
               <div style="width: 70%"></div>
             </div>
           </div>
-        
-        <div class="box">
-          <h4>Redes</h4>
-          <div class="porcentaje">
-            <div style="width: 56%"></div>
+
+          <div class="box">
+            <h4>Redes</h4>
+            <div class="porcentaje">
+              <div style="width: 56%"></div>
+            </div>
+          </div>
+
+          <div class="box">
+            <h4>C</h4>
+            <div class="porcentaje">
+              <div style="width: 38%"></div>
+            </div>
+          </div>
+
+          <div class="box">
+            <h4>C++</h4>
+            <div class="porcentaje">
+              <div style="width: 43%"></div>
+            </div>
+          </div>
+
+          <div class="box">
+            <h4>C#</h4>
+            <div class="porcentaje">
+              <div style="width: 61%"></div>
+            </div>
           </div>
         </div>
-      </div>
+        <!--Finish My Skills Code-->
         <br />
 
         <div class="about intereses">
@@ -214,12 +382,15 @@
               <i class="fa fa-motorcycle" aria-hidden="true"></i>&nbsp;
               Motociclismo
             </li>
-            <li><i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;Programación</li>
+            <li>
+              <i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;Programación
+            </li>
           </ul>
         </div>
 
         <br />
 
+        <!--Experience Code-->
         <div class="about">
           <h2 class="title2">Experiencia</h2>
 
@@ -244,7 +415,8 @@
             <div class="text">
               <h4>Diseñador y programador de Software y Bases de Datos</h4>
               <p>
-                Análisis de Requuerimientos, apoyo en creación de software y páginas webs a medida, puesto en marcha en proyectos académicos 
+                Análisis de Requuerimientos, apoyo en creación de software y
+                páginas webs a medida, puesto en marcha en proyectos académicos
               </p>
             </div>
           </div>
@@ -257,17 +429,93 @@
             <div class="text">
               <h4>Técnico en Reparación de Computadoras</h4>
               <p>
-         
-
-       Instalación de Sistemas Operativos, programas y soporte ante
+                Instalación de Sistemas Operativos, programas y soporte ante
                 fallas en el Equipo
               </p>
             </div>
           </div>
         </div>
+        <!-- Finish Experience Code-->
       </div>
     </div>
-  <script src="scripts.js"></script>
-</body>
 
-</html
+    <!-- Modales -->
+
+    <!-- Modal 1 -->
+    <div id="myModal1" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal1');">&times;</span>
+        <div class="slideshow">
+          <img src="img/cedit-cara1.jpg" class="mySlides" />
+          <img src="img/cedit-cara2.jpg" class="mySlides" />
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides('myModal1', -1)">&#10094;</a>
+      <a class="next" onclick="plusSlides('myModal1', 1)">&#10095;</a>
+    </div>
+
+    <!-- Modal 2 -->
+    <div id="myModal2" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal2');">&times;</span>
+        <div class="slideshow">
+          <img src="img/megasys1.jpg" class="mySlides" />
+          <img src="img/megasys2.jpg" class="mySlides" />
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides('myModal2', -1)">&#10094;</a>
+      <a class="next" onclick="plusSlides('myModal2', 1)">&#10095;</a>
+    </div>
+
+    <!-- Modal 3 -->
+    <div id="myModal3" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal3');">&times;</span>
+        <div class="slideshow">
+          <img src="img/usat1.jpg" class="mySlides" />
+          <img src="img/usat2.jpg" class="mySlides" />
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides('myModal3', -1)">&#10094;</a>
+      <a class="next" onclick="plusSlides('myModal3', 1)">&#10095;</a>
+    </div>
+
+    <!-- Modal 4 -->
+    <div id="myModal4" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal4');">&times;</span>
+        <div class="slideshow">
+          <img src="img/cetic.jpg" class="mySlides" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div id="myModal5" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal5');">&times;</span>
+        <div class="slideshow">
+          <img src="img/powerpoint.jpg" class="mySlides" />
+          <img src="img/access.jpg" class="mySlides" />
+        </div>
+      </div>
+      <a class="prev" onclick="plusSlides('myModal5', -1)">&#10094;</a>
+      <a class="next" onclick="plusSlides('myModal5', 1)">&#10095;</a>
+    </div>
+
+    <!-- Modal 6 -->
+    <div id="myModal6" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal6');">&times;</span>
+        <div class="slideshow">
+          <img src="img/agile.jpg" class="mySlides" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Fin de Modales -->
+
+    <script src="js/scripts.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
+</html>
