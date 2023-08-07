@@ -8,3 +8,4 @@ const setTheme = (theme) => {
 
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
+localStorage.clear;
