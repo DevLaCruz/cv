@@ -6,9 +6,5 @@ const setTheme = (theme) => {
     localStorage.setItem('theme', theme);
 }
 
-slider.addEventListener('click', ()  => {
-    let switchToTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
-    setTheme(switchToTheme);
-});
 
 setTheme(localStorage.getItem('theme') || preferedColorScheme);
