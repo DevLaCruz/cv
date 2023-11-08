@@ -1,38 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/estilo.css" />
+    <link rel="stylesheet" href="styles/style.scss" />
+    <link rel="stylesheet" href="styles/style-modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Curriculum Vitae</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles/estilo.css" />
-  <link rel="stylesheet" href="styles/style.scss" />
-  <link rel="stylesheet" href="styles/style-modal.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Curriculum Vitae</title>
-</head>
+  <body>
+    <nav class="cabezera">
+      <label class="switch">
+        <input type="checkbox" id="slider" checked />
+        <span class="slider"></span>
+      </label>
+      <a href="/" class="label_change"> Cambiar Idioma </a>
 
-<body>
-  <nav class="cabezera">
-      
-        <label class="switch">
-          <input type="checkbox" id="slider" checked>
-           <span class="slider"></span>
-        </label>
-       <a href="index.html" class="label_change">
-          Cambiar Idioma
-        </a>
-        
-      <!-- <label class="switch2">
-          Taken from:
+      <!--  <label class="switch2">
+          Extraído de:  
         </label>
         <a href="https://devlacruz.github.io/cv" class="label_change2">
           https://devlacruz.github.io/cv
         </a>-->
-    
-      </nav>
+    </nav>
 
     <div class="container">
       <div class="left_side">
@@ -41,30 +40,46 @@
             <img src="img/linked.jpg" alt="" />
           </div>
           <h2>
-            Alejandro De La Cruz<br /><span>developer and university Student</span>
+            Alejandro De La Cruz<br /><br><span
+              >fullstack developer and university student</span
+            >
           </h2>
         </div>
         <div class="contact_info">
           <h3 class="title">Contact</h3>
           <ul>
             <li>
-              <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+              <span class="icon"
+                ><i class="fa fa-phone" aria-hidden="true"></i
+              ></span>
               <span class="text">+51 972 106 282</span>
             </li>
             <li>
-              <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-              <span class="text">adelacruzsu@unprg.edu.pe</span>
+              <span class="icon"
+                ><i class="fa fa-envelope-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">alejantony.22@hotmail.com</span>
             </li>
             <li>
-              <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
-              <a href="https://github.com/DevLaCruz"><span class="text">github.com/DevLaCruz</span></a>
+              <span class="icon"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></span>
+              <a href="https://github.com/DevLaCruz"
+                ><span class="text">github.com/DevLaCruz</span></a
+              >
             </li>
             <li>
-              <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-              <a href="https://linkedin.com/in/devlacruz"><span class="text">linkedin.com/in/devlacruz</span></a>
+              <span class="icon"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></span>
+              <a href="https://linkedin.com/in/devlacruz"
+                ><span class="text">linkedin.com/in/devlacruz</span></a
+              >
             </li>
             <li>
-              <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <span class="icon"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i
+              ></span>
               <span class="text">Chiclayo, Lambayeque, Perú</span>
             </li>
           </ul>
@@ -73,57 +88,28 @@
           <h3 class="title">Education</h3>
           <ul>
             <li>
-              <h5>May 2023 - May 2023</h5>
-              <h4>2023 Agile Project Management with Scrum: AGILE Course</h4>
-              <h4>Masterclass - Udemy</h4>
-              <a
-                href="#"
-                onclick="openModal('myModal6'); return false;"
-                style="color: white">
-                <i>See Certificate</i></a>
-              >
-            </li>
-            <br />
-            <li>
-              <h5>March 2023 - June 2023</h5>
-              <h4>Office Suite (Power Point & Access)</h4>
-              <h4>Numpy Cursos, Gabriela Segovia Castro and Hugo Aguilar Svonik - Udemy</h4>
-              <a
-                href="#"
-                onclick="openModal('myModal5'); return false;"
-                style="color: white">
-                <i>See Certificate</i></a>
-              >
-            </li>
-            <br />
-            <li>
-              <h5>March 2023 - Mayy 2023</h5>
-              <h4>Learn Language C, C++ and C# from ZERO to EXPERT</h4>
-              <h4>Portal Ingeniería - Udemy</h4>
-              <a
-                href="#"
-                onclick="openModal('myModal4'); return false;"
-                style="color: white">
-                <i>See Certificate</i></a>
-              >
-            </li>
-            <br />
-            <li>
-              <h5>Agosto 2021 - Septiembre 2021</h5>
+              <h5>August 2021</h5>
               <h4>Artificial Intelligence: The Future of Automation</h4>
-              <h4>Santo Toribio de Mogrovejo Catholic University and Salta Catholic University</h4>
+              <h4>
+                Santo Toribio de Mogrovejo Catholic University & University
+                Catholic of Salta
+              </h4>
               <a
                 href="#"
                 onclick="openModal('myModal3'); return false;"
-                style="color: white">
-                <i>See Certificate</i></a>
+                style="color: white"
+              >
+                <i>Ver Certificado</i></a
+              >
             </li>
             <br />
             <li>
-              <h5>October 2019 - October 2024</h5>
-              <h4>Systems Engineer</h4>
+              <h5>October 2019 - Present</h5>
+              <h4>Systems Engineering</h4>
               <h4>Pedro Ruiz Gallo University</h4>
-              <a href="#" id="pdf-link" style="color: white"><i>See Record</i></a>
+              <a href="#" id="pdf-link" style="color: white"
+                ><i>See Constancy</i></a
+              >
 
               <div id="pdf-modal">
                 <div id="pdf-modal-content">
@@ -137,17 +123,7 @@
                 </div>
               </div>
             </li>
-            <br />
-            <li>
-              <h5>January 2017 - June 2017</h5>
-              <h4>Office Suite (Excel & Word)</h4>
-              <h4>MEGASYSTEM</h4>
-              <a
-                href="#"
-                onclick="openModal('myModal2'); return false;"
-                style="color: white">
-                <i>See Certificate</i></a>
-            </li>
+          
             <br />
             <li>
               <h5>February 2016 - March 2016</h5>
@@ -156,8 +132,10 @@
               <a
                 href="#"
                 onclick="openModal('myModal1'); return false;"
-                style="color: white">
-                <i>See Certificate</i></a>
+                style="color: white"
+              >
+                <i>See Certificate</i></a
+              >
             </li>
           </ul>
         </div>
@@ -183,24 +161,10 @@
         </div>
       </div>
       <div class="right_side">
-        <div class="about" style="text-align: justify;">
-          <h2 class="title2">Profile</h2>
+        <div class="about">
+          <h2 class="title2">profile</h2>
           <p>
-            Person passionate about the technological world, enthusiastic about
-            explore new environments and challenges in this exciting and ever-evolving field. I am currently studying the last semesters of
-            Systems Engineering for which I have acquired solid knowledge
-            in programming, databases, computer networks and security
-            computer science, because despite my little professional experience, through projects and practical subjects, I have
-            had the opportunity to apply this knowledge in situations
-            and develop relevant technical skills.
-          <br>
-            In addition, my experience as a retail salesperson in a commercial field has provided me
-            effective communication skills, negotiation, management of
-            customers and a results-based mindset. I consider that
-            skills will be an additional advantage in the technological field, since
-            that I can understand the needs of end users and
-            develop solutions that meet your needs in a way
-            efficient.
+            Self-taught and final year student of Systems Engineering, with solid knowledge in Software Development, Computer Networks, Cybersecurity and Artificial Intelligence. I have applied some of my knowledge in real projects with Peruvian companies. <br><br>I also have experience in the commercial field, which gave me skills in communication, negotiation and management, always oriented towards results. My focus on meeting the needs of end users, and my knowledge of agile methodologies, make me an interesting resource for an organization.
           </p>
         </div>
 
@@ -208,137 +172,145 @@
 
         <div class="about intereses">
           <h2 class="title2">soft skills (qualities)</h2>
-          <ul>
-            <li>
-              <i class="fa fa-line-chart" aria-hidden="true"></i>&nbsp;
-              Resilience
-            </li>
-            <li>
-              <i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp; Commitment
-            </li>
-            <li><i class="fa fa-user-plus" aria-idden="true"></i>&nbsp;Empathy</li>
-            <li>
-              <i class="fa fa-lightbulb-o" aria-hidden="true"></i>Creativity
-            </li>
-            <li>
-              <i class="fa fa-check-square-o" aria-hidden="true"></i>Adaptability
-            </li>
-            <li>
-              <i class="fa fa-users" aria-hidden="true"></i>&nbsp;Management
-            </li>
+          
+            <ul>
+              <li>
+                <i class="fa fa-check-square-o" aria-hidden="true"></i
+                >Responsability
+              </li>
+              <li>
+                <i class="fa fa-lightbulb-o" aria-hidden="true"></i>Creativity
+              </li>
+              <li><i class="fa fa-users" aria-hidden="true"></i>&nbsp;Adaptability</li>
+             
+              <li>
+                <i class="fa fa-line-chart" aria-hidden="true"></i>&nbsp;
+                Leadership
+              </li>
+            
           </ul>
         </div>
 
         <br />
-
+        <!--My Skills Code-->
         <div class="about skills">
           <h2 class="title2">hard skills (knowledge)</h2>
+
           <div class="box">
             <h4>HTML</h4>
             <div class="porcentaje">
-              <div style="width: 85%"></div>
+              <div style="width: 90%"></div>
             </div>
           </div>
+
           <div class="box">
             <h4>CSS</h4>
             <div class="porcentaje">
-              <div style="width: 83%"></div>
+              <div style="width: 87%"></div>
             </div>
           </div>
+
           <div class="box">
             <h4>Javascript</h4>
             <div class="porcentaje">
-              <div style="width: 62%"></div>
+              <div style="width: 79%"></div>
             </div>
           </div>
+
           <div class="box">
             <h4>Java</h4>
             <div class="porcentaje">
-              <div style="width: 56%"></div>
+              <div style="width: 61%"></div>
             </div>
           </div>
-          <div class="box">
-            <h4>SQL</h4>
-            <div class="porcentaje">
-              <div style="width: 67%"></div>
-            </div>
-          </div>
+
+
           <div class="box">
             <h4>Wordpress</h4>
-            <div class="porcentaje">
-              <div style="width: 76%"></div>
-            </div>
-          </div>
-          <div class="box">
-            <h4>PHP</h4>
-            <div class="porcentaje">
-              <div style="width: 56%"></div>
-            </div>
-          </div>
-          <div class="box">
-            <h4>Python</h4>
             <div class="porcentaje">
               <div style="width: 70%"></div>
             </div>
           </div>
-      
-        <div class="box">
-          <h4>Networking</h4>
-          <div class="porcentaje">
-            <div style="width: 56%"></div>
-          </div>
-        </div>
-        <div class="box">
-          <h4>C</h4>
-          <div class="porcentaje">
-            <div style="width: 38%"></div>
-          </div>
-        </div>
 
-        <div class="box">
-          <h4>C++</h4>
-          <div class="porcentaje">
-            <div style="width: 43%"></div>
+          <div class="box">
+            <h4>PHP</h4>
+            <div class="porcentaje">
+              <div style="width: 79%"></div>
+            </div>
           </div>
-        </div>
 
-        <div class="box">
-          <h4>C#</h4>
-          <div class="porcentaje">
-            <div style="width: 61%"></div>
+          <div class="box">
+            <h4>C#</h4>
+            <div class="porcentaje">
+              <div style="width: 47%"></div>
+            </div>
           </div>
+
+          <div class="box">
+            <h4>Python</h4>
+            <div class="porcentaje">
+              <div style="width: 88%"></div>
+            </div>
+          </div>
+
+          <div class="box">
+            <h4>SQL</h4>
+            <div class="porcentaje">
+              <div style="width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="box">
+            <h4>NoSQL</h4>
+            <div class="porcentaje">
+              <div style="width: 44%"></div>
+            </div>
+          </div>
+
+          <div class="box">
+            <h4>Networking</h4>
+            <div class="porcentaje">
+              <div style="width: 56%"></div>
+            </div>
+          </div>
+
+         
         </div>
-      </div>
-      <!--Finish My Skills Code-->
-      <br />
+        <!--Finish My Skills Code-->
+        <br />
 
         <div class="about intereses">
-          <h2 class="title2">hobbies</h2>
+          <h2 class="title2">Hobbies</h2>
           <ul>
             <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
-            <li><i class="fa fa-headphones" aria-hidden="true"></i>Músic</li>
+            <li><i class="fa fa-headphones" aria-hidden="true"></i>Music</li>
             <li>
-              <i class="fa fa-motorcycle" aria-hidden="true"></i>&nbsp
+              <i class="fa fa-motorcycle" aria-hidden="true"></i>&nbsp;
               Motorcycling
             </li>
-            <li><i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;Programming</li>
+            <li>
+              <i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;Programming
+            </li>
           </ul>
         </div>
 
         <br />
 
+        <!--Experience Code-->
         <div class="about">
           <h2 class="title2">Experience</h2>
 
           <div class="box">
             <div class="year_company">
-              <h5>May. 2023 - Jul. 2023</h5>
-              <h5>Consigue Ventas Group</h5>
+              <h5>May 2023 - Aug. 2023</h5>
+              <h5>JF Online Agency</h5>
             </div>
             <div class="text">
-              <h4>Backend Developer</h4>
+              <h4>Laravel Developer</h4>
               <p>
-                Programming in PHP, using the Laravel framework, creating Rest APIs and manipulating the database
+                Development in PHP, using the Laravel framework, creating APIs
+                 Rest and storing information in MySQL databases,
+                 applied to an internal company project.
               </p>
             </div>
           </div>
@@ -349,41 +321,31 @@
               <h5>Bits & Systems Solutions</h5>
             </div>
             <div class="text">
-              <h4>Intern in the Quality Area</h4>
+              <h4>ERP Developer Intern</h4>
               <p>
-                Analysis and documentation of errors in the software marketed by the company
+                Analysis and documentation of errors in the software that the company sold, I had the opportunity to understand in more detail the business processes of large companies.
               </p>
             </div>
           </div>
 
           <div class="box">
             <div class="year_company">
-              <h5>2021 - present</h5>
-              <h5>Academic Projects</h5>
+              <h5>2021 - Present</h5>
+              <h5>Freelancer</h5>
             </div>
             <div class="text">
-              <h4>Software and Database designer and programmer</h4>
+              <h4>Full Stack Developer</h4>
               <p>
-                Requirements analysis, support in creating custom software and web pages
+                Requirements analysis, software creation and
+                 custom web pages, applied in academic and real projects,
+                 using technologies such as Spring Boot, Django, Wordpress, .NET and relational and non-relational databases, in the backend; in the frontend, HTML, CSS, Javascript and sometimes I use frontend frameworks.
               </p>
             </div>
           </div>
 
-          <div class="box">
-            <div class="year_company">
-              <h5>2016 - present</h5>
-              <h5>Own Services</h5>
-            </div>
-            <div class="text">
-              <h4>Computer Repair Technician</h4>
-              <p>
-                Installation of Operating Systems, programs and support before
-                 equipment failure
-              </p>
-            </div>
-          </div>
+          
         </div>
-        <!--Finish experience code-->
+        <!-- Finish Experience Code-->
       </div>
     </div>
 
@@ -463,8 +425,7 @@
 
     <!-- Fin de Modales -->
 
-  <script src="js/scripts.js"></script>
-  <script src="js/modal.js"></script>
-</body>
-
+    <script src="js/scripts.js"></script>
+    <script src="js/modal.js"></script>
+  </body>
 </html>

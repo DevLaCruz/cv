@@ -58,7 +58,7 @@ window.onclick = function(event) {
 //PDF Modal
 document.getElementById('pdf-link').addEventListener('click', function(e) {
   e.preventDefault();
-  showPdfModal('doc (1).pdf');
+  showPdfModal('doc.pdf');
 });
 
 function showPdfModal(pdfUrl) {
